@@ -16,7 +16,7 @@ const useClick = (onClick) => {
                 REFERENCE.removeEventListener("click", onClick)    
             }
         }
-    });
+    }, [onClick]);
     
     return element;
 };
