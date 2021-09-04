@@ -32,7 +32,7 @@ const UseTabsApp = () => {
     return (
         <div>
             {content.map((section, index) => (
-                <button onClick={() => changeItem(index)}>{section.tab}</button>
+                <button key={index} onClick={() => changeItem(index)}>{section.tab}</button>
             ))}
             <p>{currentItem.content}</p>
         </div>
