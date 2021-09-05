@@ -1,5 +1,6 @@
 import React from "react";
 import UseClickApp from "./customHooks/useClick";
+import UseConfirmApp from "./customHooks/useConfirm";
 import UseInputApp from "./customHooks/useInput";
 import UseTabsApp from "./customHooks/useTabs";
 import UseTitleApp from "./customHooks/useTitle";
@@ -16,6 +17,7 @@ const App = () => {
       <UseTabsApp />
       <UseTitleApp />
       <UseClickApp />
+      <UseConfirmApp />
     </div>
   )
 }
