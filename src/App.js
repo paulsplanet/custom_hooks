@@ -1,4 +1,5 @@
 import React from "react";
+import UseBeforeLeaveApp from "./customHooks/useBeforeLeave";
 import UseClickApp from "./customHooks/useClick";
 import UseConfirmApp from "./customHooks/useConfirm";
 import UseInputApp from "./customHooks/useInput";
@@ -20,6 +21,7 @@ const App = () => {
       <UseClickApp />
       <UseConfirmApp />
       <UsePreventLeaveApp />
+      <UseBeforeLeaveApp />
     </div>
   )
 }
