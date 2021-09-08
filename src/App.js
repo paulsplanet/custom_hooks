@@ -4,6 +4,7 @@ import UseClickApp from "./customHooks/useClick";
 import UseConfirmApp from "./customHooks/useConfirm";
 import UseFadeInApp from "./customHooks/useFadeIn";
 import UseInputApp from "./customHooks/useInput";
+import UseNetworkApp from "./customHooks/useNetwork";
 import UsePreventLeaveApp from "./customHooks/usePreventLeave";
 import UseTabsApp from "./customHooks/useTabs";
 import UseTitleApp from "./customHooks/useTitle";
@@ -24,6 +25,7 @@ const App = () => {
       <UsePreventLeaveApp />
       <UseBeforeLeaveApp />
       <UseFadeInApp />
+      <UseNetworkApp />
     </div>
   )
 }
