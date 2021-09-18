@@ -6,6 +6,7 @@ import UseFadeInApp from "./customHooks/useFadeIn";
 import UseFullscreenApp from "./customHooks/useFullscreen";
 import UseInputApp from "./customHooks/useInput";
 import UseNetworkApp from "./customHooks/useNetwork";
+import UseNotificationApp from "./customHooks/useNotification";
 import UsePreventLeaveApp from "./customHooks/usePreventLeave";
 import UseScrollApp from "./customHooks/useScroll";
 import UseTabsApp from "./customHooks/useTabs";
@@ -30,6 +31,7 @@ const App = () => {
       <UseNetworkApp />
       <UseScrollApp />
       <UseFullscreenApp />
+      <UseNotificationApp />
     </div>
   )
 }
