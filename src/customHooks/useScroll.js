@@ -22,8 +22,8 @@ const UseScrollApp = () => {
     const { y } = useScroll();
 
     return (
-        <div style={{ height: "50vh", backgroundColor: "grey" }}>
-            <h4 style={{ position: "fixed", color: y > 50 ? "red" : "blue"}}>useScroll</h4>
+        <div style={{ height: "50vh", backgroundColor: "grey", position: "relative" }}>
+            <h4 style={{ position: "absolute", top: "50px", color: y > 50 ? "red" : "blue"}}>useScroll</h4>
         </div>
     )
 }

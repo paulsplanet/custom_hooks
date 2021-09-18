@@ -3,6 +3,7 @@ import UseBeforeLeaveApp from "./customHooks/useBeforeLeave";
 import UseClickApp from "./customHooks/useClick";
 import UseConfirmApp from "./customHooks/useConfirm";
 import UseFadeInApp from "./customHooks/useFadeIn";
+import UseFullscreenApp from "./customHooks/useFullscreen";
 import UseInputApp from "./customHooks/useInput";
 import UseNetworkApp from "./customHooks/useNetwork";
 import UsePreventLeaveApp from "./customHooks/usePreventLeave";
@@ -28,6 +29,7 @@ const App = () => {
       <UseFadeInApp />
       <UseNetworkApp />
       <UseScrollApp />
+      <UseFullscreenApp />
     </div>
   )
 }
