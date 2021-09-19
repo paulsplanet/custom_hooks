@@ -1,4 +1,5 @@
 import React from "react";
+import UseAxiosApp from "./customHooks/useAxiosApp";
 import UseBeforeLeaveApp from "./customHooks/useBeforeLeave";
 import UseClickApp from "./customHooks/useClick";
 import UseConfirmApp from "./customHooks/useConfirm";
@@ -11,10 +12,6 @@ import UsePreventLeaveApp from "./customHooks/usePreventLeave";
 import UseScrollApp from "./customHooks/useScroll";
 import UseTabsApp from "./customHooks/useTabs";
 import UseTitleApp from "./customHooks/useTitle";
-
-
-
-
 
 const App = () => {
   return (
@@ -32,6 +29,7 @@ const App = () => {
       <UseScrollApp />
       <UseFullscreenApp />
       <UseNotificationApp />
+      <UseAxiosApp />
     </div>
   )
 }
